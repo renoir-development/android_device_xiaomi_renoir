@@ -84,6 +84,7 @@ TARGET_COPY_OUT_PRODUCT := product
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
 # Include proprietary files
 include vendor/xiaomi/renoir/BoardConfigVendor.mk
