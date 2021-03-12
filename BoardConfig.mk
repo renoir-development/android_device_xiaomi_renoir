@@ -5,3 +5,6 @@
 #
 
 DEVICE_PATH := device/xiaomi/renoir
+
+# Include proprietary files
+include vendor/xiaomi/renoir/BoardConfigVendor.mk
