@@ -17,5 +17,9 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sm7350
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
 
+# Partitions
+BOARD_DTBOIMG_PARTITION_SIZE := 25165824
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 114001162240
+
 # Include proprietary files
 include vendor/xiaomi/renoir/BoardConfigVendor.mk
