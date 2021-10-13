@@ -23,5 +23,8 @@ TARGET_2ND_CPU_VARIANT := cortex-a75
 TARGET_BOARD_PLATFORM := lahaina
 TARGET_BOOTLOADER_BOARD_NAME := renoir
 
+# Bootloader
+TARGET_NO_BOOTLOADER := true
+
 # Include proprietary files
 include vendor/xiaomi/renoir/BoardConfigVendor.mk
