@@ -4549,8 +4549,6 @@ vendor/lib/com.qti.feature2.demux.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcdsp_default_listener.so
 vendor/ueventd.rc
-vendor/default.prop
-vendor/build.prop
 vendor/odm
 vendor/rfs/apq/gnss/readwrite
 vendor/rfs/apq/gnss/ramdumps
