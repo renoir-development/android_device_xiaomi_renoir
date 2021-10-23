@@ -15,7 +15,6 @@ odm/etc/group
 -odm/etc/vintf/manifest_lisa.xml
 odm/etc/passwd
 odm/etc/fs_config_files
-odm/etc/build.prop
 odm/etc/NOTICE.xml.gz
 odm/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256
 odm/etc/selinux/precompiled_sepolicy
