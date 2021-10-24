@@ -4,31 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# API level, the device has been commercially launched on
-PRODUCT_SHIPPING_API_LEVEL := 30
-
-# Fastbootd
-PRODUCT_PACKAGES += \
-    fastbootd
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.qcom \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
-
-# Partitions
-PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
-# Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
-
-# Recovery
-PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc
+# Inherit from sm8350-common
+$(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/renoir/renoir-vendor.mk)
+#$(call inherit-product, vendor/xiaomi/renoir/renoir-vendor.mk)

@@ -6,20 +6,8 @@
 
 DEVICE_PATH := device/xiaomi/renoir
 
-# Architecture
-TARGET_ARCH := arm64
-TARGET_ARCH_VARIANT := armv8-a
-TARGET_CPU_ABI := arm64-v8a
-TARGET_CPU_ABI2 :=
-TARGET_CPU_VARIANT := generic
-TARGET_CPU_RUNTIME_VARIANT := kryo300
-
-TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := armv8-2a
-TARGET_2ND_CPU_ABI := armeabi-v7a
-TARGET_2ND_CPU_ABI2 := armeabi
-TARGET_2ND_CPU_VARIANT := generic
-TARGET_2ND_CPU_RUNTIME_VARIANT := cortex-a75
+# Inherit from sm8350-common
+include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 # Board
 TARGET_BOARD_PLATFORM := lahaina
@@ -28,8 +16,8 @@ TARGET_BOOTLOADER_BOARD_NAME := renoir
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
-# Display
-TARGET_SCREEN_DENSITY := 440
+# HIDL
+ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
@@ -41,13 +29,16 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_BOOT_HEADER_VERSION := 3
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image
-TARGET_FORCE_PREBUILT_KERNEL := true
+#TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image
+#TARGET_FORCE_PREBUILT_KERNEL := true
 
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc
+TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := vendor/renoir-qgki_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm7350
+
+KERNEL_LD := LD=ld.lld
 
 BOARD_KERNEL_CMDLINE := \
     androidboot.console=ttyMSM0 \
@@ -95,16 +86,5 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_PRODUCT := product
 
-# Properties
-TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
-# Recovery
-BOARD_USES_RECOVERY_AS_BOOT := true
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
-TARGET_USERIMAGES_USE_EXT4 := true
-TARGET_USERIMAGES_USE_F2FS := true
-
 # Include proprietary files
-include vendor/xiaomi/renoir/BoardConfigVendor.mk
+#include vendor/xiaomi/renoir/BoardConfigVendor.mk
