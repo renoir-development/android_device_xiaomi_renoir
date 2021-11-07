@@ -9,6 +9,9 @@ DEVICE_PATH := device/xiaomi/renoir
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
+# Board
+TARGET_BOOTLOADER_BOARD_NAME := renoir
+
 # HIDL
 ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest.xml
 
