@@ -19,6 +19,10 @@ ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest.xml
 TARGET_KERNEL_CONFIG := vendor/renoir-qgki_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm7350
 
+# Kernel modules
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
+
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 114001162240
