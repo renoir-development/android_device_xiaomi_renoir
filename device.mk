@@ -17,4 +17,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/renoir/renoir-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/renoir/renoir-vendor.mk)
