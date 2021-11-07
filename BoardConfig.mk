@@ -9,6 +9,9 @@ DEVICE_PATH := device/xiaomi/renoir
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
+# HIDL
+ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/renoir-qgki_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm7350
