@@ -11,6 +11,7 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/renoir-qgki_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sm7350
 
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
