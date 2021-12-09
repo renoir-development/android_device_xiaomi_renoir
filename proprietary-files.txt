@@ -474,15 +474,6 @@ vendor/etc/display/DPU660.xml
 vendor/etc/display/DPU670.xml
 vendor/etc/display/DPU7__.xml
 vendor/etc/display/advanced_sf_offsets.xml
-vendor/etc/ltm_config_xiaomi_36_02_0a_cmd_mode_dsc_dsi_panel.xml
-vendor/etc/ltm_config_xiaomi_36_02_0a_mp_cmd_mode_dsc_dsi_panel.xml
-vendor/etc/ltm_config_xiaomi_36_02_0a_p1_cmd_mode_dsc_dsi_panel.xml
-vendor/etc/ltm_config_xiaomi_36_02_0a_p2_cmd_mode_dsc_dsi_panel.xml
-vendor/etc/mdss_dsi_k9_36_02_0a_dsc_cmd_mi.xml
-vendor/etc/mdss_dsi_k9_36_02_0a_mp_dsc_cmd_mi.xml
-vendor/etc/mdss_dsi_k9_36_02_0a_p1_dsc_cmd_mi.xml
-vendor/etc/mdss_dsi_k9_36_02_0a_p2_dsc_cmd_mi.xml
-vendor/etc/mdss_dsi_k9_42_02_0b_mp_dsc_cmd_mi.xml
 vendor/etc/qdcm_calib_data_xiaomi_36_02_0a_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_36_02_0a_mp_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_36_02_0a_p1_cmd_mode_dsc_dsi_panel.xml
