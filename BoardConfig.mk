@@ -17,7 +17,6 @@ ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/renoir-qgki_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sm7350
 
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
