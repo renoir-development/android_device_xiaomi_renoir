@@ -63,12 +63,10 @@ vendor/lib/hw/audio.primary.lahaina.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
-vendor/lib/libfcsam.so
 vendor/lib64/hw/audio.primary.lahaina.so
 vendor/lib64/liba2dpoffload.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioroute_ext.so
-vendor/lib64/libfcsam.so
 
 # Camera
 vendor/lib64/camera/com.qti.actuator.renoir_ofilm_s5kgw3_dw9800_wide.so
@@ -184,10 +182,6 @@ vendor/lib64/libcom.xiaomi.metadatautils.so
 vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcvface_api.so
-vendor/lib64/libdualcam_optical_zoom_control.so
-vendor/lib64/libdualcam_video_optical_zoom.so
-vendor/lib64/libellc.so
-vendor/lib64/libfcsam.so
 vendor/lib64/libFlickerDet.so
 vendor/lib64/libfocus.so
 vendor/lib64/libhdrdynamicootf.so
@@ -197,10 +191,9 @@ vendor/lib64/libI420colorconvert.so
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libmegface.so
 vendor/lib64/libMegviiFacepp-0.5.2.so
-vendor/lib64/libmiai_deblur.so
 vendor/lib64/libmiai_portraitsupernight.so
 vendor/lib64/libmialgo_ai_vision.so
-vendor/lib64/libmialgo_basic.so
+vendor/lib64/libmialgo_ellc.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmialgo_ie_capture.so
 vendor/lib64/libmialgo_ie_preview.so
@@ -213,7 +206,6 @@ vendor/lib64/libmialgo_utils.so
 vendor/lib64/libmialgo_video_colourkeeping.so
 vendor/lib64/libmialgo_video_enhance.so
 vendor/lib64/libmialgo_video_seg.so
-vendor/lib64/libmialgo_vn_clk.so
 vendor/lib64/libmibokeh_845_video.so
 vendor/lib64/libmibokeh_855.so
 vendor/lib64/libmibokeh_mask_dsp.so
@@ -232,7 +224,8 @@ vendor/lib64/librelight_only.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libsdk_sr.so
-vendor/lib64/libsnpe_htp.so
+vendor/lib64/libsnpe_dsp_domains_v2.so
+vendor/lib64/libsnpe_dsp_domains_v3.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libsns_device_mode_stub.so
@@ -246,8 +239,6 @@ vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
-vendor/lib64/libtriplecam_optical_zoom_control.so
-vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libvideoBokeh.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
@@ -255,8 +246,6 @@ vendor/lib64/libwa_opticalzoom_fusion.so
 vendor/lib64/libxmi_hdr_checker.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so
-vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 
@@ -264,16 +253,11 @@ vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_bodyslim.so
 vendor/lib64/libarcsoft_distortion_correction.so
-vendor/lib64/libarcsoft_dualcam_refocus_image.so
-vendor/lib64/libarcsoft_dualcam_refocus_video.so
-vendor/lib64/libarcsoft_dual_sat.so
-vendor/lib64/libarcsoft_dual_zoomtranslator.so
 vendor/lib64/libarcsoft_hdrplus_hvx_stub.so
 vendor/lib64/libarcsoft_portrait_lighting_c.so
 vendor/lib64/libarcsoft_portrait_lighting.so
+vendor/lib64/libarcsoft_qnnhtp.so
 vendor/lib64/libarcsoft_super_night_raw.so
-vendor/lib64/libarcsoft_triple_sat.so
-vendor/lib64/libarcsoft_triple_zoomtranslator.so
 
 # Camera (camerax)
 vendor/lib64/libcamxexternalformatutils.so
@@ -723,19 +707,22 @@ vendor/firmware/goodix_gt9897t_cfg_k9.bin
 vendor/firmware/goodix_gt9897t_fw_k9.bin
 
 # Thermal config
+vendor/etc/thermal-4k.conf
+vendor/etc/thermal-8k.conf
 vendor/etc/thermal-camera.conf
+vendor/etc/thermal-chg-only.conf
 vendor/etc/thermal-class0.conf
 vendor/etc/thermald-devices.conf
 vendor/etc/thermal-engine.conf
+vendor/etc/thermal-india-4k.conf
+vendor/etc/thermal-india-8k.conf
 vendor/etc/thermal-india-camera.conf
 vendor/etc/thermal-india-class0.conf
 vendor/etc/thermal-india-mgame.conf
-vendor/etc/thermal-india-navigation.conf
-vendor/etc/thermal-india-nolimits.conf
 vendor/etc/thermal-india-normal.conf
-vendor/etc/thermal-india-phone.conf
 vendor/etc/thermal-india-tgame.conf
 vendor/etc/thermal-india-video.conf
+vendor/etc/thermal-india-youtube.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-map-india.conf
 vendor/etc/thermal-mgame.conf
@@ -746,6 +733,7 @@ vendor/etc/thermal-phone.conf
 vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
+vendor/etc/thermal-youtube.conf
 
 # Vibrator firmware
 vendor/firmware/aw8624_haptic.bin
