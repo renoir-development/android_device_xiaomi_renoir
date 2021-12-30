@@ -68,6 +68,9 @@ vendor/lib64/liba2dpoffload.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioroute_ext.so
 
+# Audio firmware
+vendor/firmware/tfa98xx.cnt
+
 # Camera
 vendor/lib64/camera/com.qti.actuator.renoir_ofilm_s5kgw3_dw9800_wide.so
 vendor/lib64/camera/com.qti.eeprom.renoir_ofilm_imx355_gt24p64e_ultra_eeprom.so
