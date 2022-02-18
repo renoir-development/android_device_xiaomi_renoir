@@ -61,6 +61,17 @@ vendor/lib/rfsa/adsp/misound_res_spk.bin
 # Audio firmware
 vendor/firmware/tfa98xx.cnt
 
+# Audio hardware
+vendor/lib/hw/audio.primary.lahaina.so
+vendor/lib/liba2dpoffload.so
+vendor/lib/libadm.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudioroute_ext.so
+vendor/lib/libqtigef.so
+#vendor/lib/libresampler.so
+vendor/lib/libssrec.so
+#vendor/lib/libvideoNS.so
+
 # Camera
 vendor/lib64/camera/com.qti.actuator.renoir_ofilm_s5kgw3_dw9800_wide.so
 vendor/lib64/camera/com.qti.eeprom.renoir_ofilm_imx355_gt24p64e_ultra_eeprom.so
@@ -481,6 +492,52 @@ vendor/lib/libmmcamera_mfnr.so
 vendor/lib/libmmcamera_mfnr_t4.so
 vendor/lib/libmmcamera_pdpc.so
 
+# Computer Vision firmware
+vendor/firmware/evass.b00
+vendor/firmware/evass.b01
+vendor/firmware/evass.b02
+vendor/firmware/evass.b03
+vendor/firmware/evass.b04
+vendor/firmware/evass.b05
+vendor/firmware/evass.b06
+vendor/firmware/evass.b07
+vendor/firmware/evass.b08
+vendor/firmware/evass.b09
+vendor/firmware/evass.b10
+vendor/firmware/evass.b11
+vendor/firmware/evass.b12
+vendor/firmware/evass.b13
+vendor/firmware/evass.b14
+vendor/firmware/evass.b15
+vendor/firmware/evass.b16
+vendor/firmware/evass.b17
+vendor/firmware/evass.b18
+vendor/firmware/evass.b19
+vendor/firmware/evass-lt.b00
+vendor/firmware/evass-lt.b01
+vendor/firmware/evass-lt.b02
+vendor/firmware/evass-lt.b03
+vendor/firmware/evass-lt.b04
+vendor/firmware/evass-lt.b05
+vendor/firmware/evass-lt.b06
+vendor/firmware/evass-lt.b07
+vendor/firmware/evass-lt.b08
+vendor/firmware/evass-lt.b09
+vendor/firmware/evass-lt.b10
+vendor/firmware/evass-lt.b11
+vendor/firmware/evass-lt.b12
+vendor/firmware/evass-lt.b13
+vendor/firmware/evass-lt.b14
+vendor/firmware/evass-lt.b15
+vendor/firmware/evass-lt.b16
+vendor/firmware/evass-lt.b17
+vendor/firmware/evass-lt.b18
+vendor/firmware/evass-lt.b19
+vendor/firmware/evass-lt.mbn
+vendor/firmware/evass-lt.mdt
+vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
+
 # Display calibration
 vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/display/DPU660.xml
@@ -505,11 +562,78 @@ vendor/etc/qdcm_calib_data_xiaomi_42_02_0b_mp_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/init/init.mfp-daemon.rc
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.lahaina.so
 
+# Graphics firmware
+vendor/firmware/a660_gmu.bin
+vendor/firmware/a660_sqe.fw
+vendor/firmware/a660_zap.b00
+vendor/firmware/a660_zap.b01
+vendor/firmware/a660_zap.b02
+vendor/firmware/a660_zap.elf
+vendor/firmware/a660_zap.mdt
+
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
+# IPA firmware
+vendor/etc/init/ipa_fws.rc
+vendor/firmware/ipa_fws.b00
+vendor/firmware/ipa_fws.b01
+vendor/firmware/ipa_fws.b02
+vendor/firmware/ipa_fws.b03
+vendor/firmware/ipa_fws.b04
+vendor/firmware/ipa_fws.elf
+vendor/firmware/ipa_fws.mdt
+
+# Media (VPU firmware)
+vendor/firmware/vpu20_2v.b00
+vendor/firmware/vpu20_2v.b01
+vendor/firmware/vpu20_2v.b02
+vendor/firmware/vpu20_2v.b03
+vendor/firmware/vpu20_2v.b04
+vendor/firmware/vpu20_2v.b05
+vendor/firmware/vpu20_2v.b06
+vendor/firmware/vpu20_2v.b07
+vendor/firmware/vpu20_2v.b08
+vendor/firmware/vpu20_2v.b09
+vendor/firmware/vpu20_2v.b10
+vendor/firmware/vpu20_2v.b11
+vendor/firmware/vpu20_2v.b12
+vendor/firmware/vpu20_2v.b13
+vendor/firmware/vpu20_2v.b14
+vendor/firmware/vpu20_2v.b15
+vendor/firmware/vpu20_2v.b16
+vendor/firmware/vpu20_2v.b17
+vendor/firmware/vpu20_2v.b18
+vendor/firmware/vpu20_2v.b19
+vendor/firmware/vpu20_2v.mbn
+vendor/firmware/vpu20_2v.mdt
+vendor/firmware/vpu20_2v_unsigned.mbn
+vendor/firmware/vpu20_4v.b00
+vendor/firmware/vpu20_4v.b01
+vendor/firmware/vpu20_4v.b02
+vendor/firmware/vpu20_4v.b03
+vendor/firmware/vpu20_4v.b04
+vendor/firmware/vpu20_4v.b05
+vendor/firmware/vpu20_4v.b06
+vendor/firmware/vpu20_4v.b07
+vendor/firmware/vpu20_4v.b08
+vendor/firmware/vpu20_4v.b09
+vendor/firmware/vpu20_4v.b10
+vendor/firmware/vpu20_4v.b11
+vendor/firmware/vpu20_4v.b12
+vendor/firmware/vpu20_4v.b13
+vendor/firmware/vpu20_4v.b14
+vendor/firmware/vpu20_4v.b15
+vendor/firmware/vpu20_4v.b16
+vendor/firmware/vpu20_4v.b17
+vendor/firmware/vpu20_4v.b18
+vendor/firmware/vpu20_4v.b19
+vendor/firmware/vpu20_4v.mbn
+vendor/firmware/vpu20_4v.mdt
+vendor/firmware/vpu20_4v_unsigned.mbn
 
 # Sensor calibrate
 vendor/etc/sensors/config/ak991x_dri_0.json
