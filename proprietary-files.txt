@@ -753,6 +753,10 @@ vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermal-youtube.conf
 
-# Vibrator firmware
-vendor/firmware/aw8624_haptic.bin
-vendor/firmware/aw8624_rtp.bin
+# Vibrator effects
+vendor/firmware/seq_bin_wav1.bin
+vendor/firmware/seq_bin_wav2.bin
+vendor/firmware/seq_bin_wav3.bin
+vendor/firmware/seq_bin_wav4.bin
+vendor/firmware/seq_bin_wav5.bin
+vendor/firmware/seq_bin_wav6.bin
