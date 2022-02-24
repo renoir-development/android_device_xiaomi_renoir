@@ -755,7 +755,7 @@ vendor/etc/thermal-youtube.conf
 
 # Vibrator effects
 vendor/firmware/seq_bin_wav1.bin
-vendor/firmware/seq_bin_wav2.bin
+vendor/firmware/seq_bin_wav2.bin|f9211d22648de1f32690592097f53fe1a4f36565
 vendor/firmware/seq_bin_wav3.bin
 vendor/firmware/seq_bin_wav4.bin
 vendor/firmware/seq_bin_wav5.bin
