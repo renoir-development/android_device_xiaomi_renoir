@@ -24,8 +24,8 @@ vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
 vendor/lib/rfsa/adsp/libbitml_nsp_skel.so
 vendor/lib/rfsa/adsp/libcamera_nn_skel.so
 vendor/lib/rfsa/adsp/libcvpdsp_2_1.so
-vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
 vendor/lib/rfsa/adsp/libhap_blink_skel.so
@@ -35,8 +35,8 @@ vendor/lib/rfsa/adsp/libmialgo_basic_cdsp_skel.so
 vendor/lib/rfsa/adsp/libmialgo_mfnr_cdsp_skel.so
 vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so
 vendor/lib/rfsa/adsp/libmialgo_sfnr_cdsp_skel.so
-vendor/lib/rfsa/adsp/libmobilenet_dsp_frc.so
 vendor/lib/rfsa/adsp/libmobilenet_dsp_frc_networks.so
+vendor/lib/rfsa/adsp/libmobilenet_dsp_frc.so
 vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
 vendor/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
 vendor/lib/rfsa/adsp/libQnnHtpSkel.so
@@ -53,8 +53,8 @@ vendor/lib/rfsa/adsp/libVppAisQnnHtp.so
 vendor/lib/rfsa/adsp/libVppFrcQnnHtp.so
 vendor/lib/rfsa/adsp/libVppQnnHtp.so
 vendor/lib/rfsa/adsp/libvpt_action_recognition.so
-vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
+vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 
@@ -68,9 +68,7 @@ vendor/lib/libadm.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libqtigef.so
-#vendor/lib/libresampler.so
 vendor/lib/libssrec.so
-#vendor/lib/libvideoNS.so
 
 # Camera
 vendor/lib64/camera/com.qti.actuator.renoir_ofilm_s5kgw3_dw9800_wide.so
@@ -543,15 +541,15 @@ vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/display/DPU660.xml
 vendor/etc/display/DPU670.xml
 vendor/etc/display/DPU7__.xml
+vendor/etc/ltm_config_xiaomi_36_02_0a_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/ltm_config_xiaomi_36_02_0a_mp_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/ltm_config_xiaomi_36_02_0a_p1_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/ltm_config_xiaomi_36_02_0a_p2_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/mdss_dsi_k9_36_02_0a_dsc_cmd_mi.xml
 vendor/etc/mdss_dsi_k9_36_02_0a_mp_dsc_cmd_mi.xml
 vendor/etc/mdss_dsi_k9_36_02_0a_p1_dsc_cmd_mi.xml
 vendor/etc/mdss_dsi_k9_36_02_0a_p2_dsc_cmd_mi.xml
 vendor/etc/mdss_dsi_k9_42_02_0b_mp_dsc_cmd_mi.xml
-vendor/etc/ltm_config_xiaomi_36_02_0a_cmd_mode_dsc_dsi_panel.xml
-vendor/etc/ltm_config_xiaomi_36_02_0a_mp_cmd_mode_dsc_dsi_panel.xml
-vendor/etc/ltm_config_xiaomi_36_02_0a_p1_cmd_mode_dsc_dsi_panel.xml
-vendor/etc/ltm_config_xiaomi_36_02_0a_p2_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_36_02_0a_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_36_02_0a_mp_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_36_02_0a_p1_cmd_mode_dsc_dsi_panel.xml
@@ -711,18 +709,14 @@ vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
-vendor/lib64/libssc.so
-vendor/lib64/libssc_default_listener.so
-vendor/lib64/libssccalapi.so
 vendor/lib64/libsns_api.so
+vendor/lib64/libssccalapi.so
+vendor/lib64/libssc_default_listener.so
+vendor/lib64/libssc.so
 vendor/lib64/libultrasound.so
 vendor/lib64/sensors.elliptic@2.0.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.detect.so
-
-# Touchscreen firmware
-vendor/firmware/goodix_gt9897t_cfg_k9.bin
-vendor/firmware/goodix_gt9897t_fw_k9.bin
 
 # Thermal config
 vendor/etc/thermal-4k.conf
@@ -752,6 +746,10 @@ vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermal-youtube.conf
+
+# Touchscreen firmware
+vendor/firmware/goodix_gt9897t_cfg_k9.bin
+vendor/firmware/goodix_gt9897t_fw_k9.bin
 
 # Vibrator effects
 vendor/firmware/seq_bin_wav1.bin
