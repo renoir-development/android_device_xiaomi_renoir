@@ -142,6 +142,7 @@ vendor/etc/camera/xiaomi/thirdpartydualbokehyuvsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartyjpegsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartysnapshot.json
 vendor/firmware/CAMERA_ICP.elf
+vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/HDR10plus.so
 vendor/lib64/camera/com.qti.actuator.renoir_ofilm_s5kgw3_dw9800_wide.so
 vendor/lib64/camera/com.qti.eeprom.renoir_ofilm_imx355_gt24p64e_ultra_eeprom.so
