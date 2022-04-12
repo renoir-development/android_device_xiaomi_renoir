@@ -420,6 +420,9 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 
+# Charger (Mi Turbo Charge)
+vendor/bin/batterysecret
+
 # Computer Vision firmware
 vendor/firmware/evass-lt.b00
 vendor/firmware/evass-lt.b01
