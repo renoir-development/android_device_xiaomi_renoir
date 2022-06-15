@@ -476,7 +476,7 @@ vendor/etc/qdcm_calib_data_xiaomi_36_02_0a_p2_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_42_02_0b_mp_cmd_mode_dsc_dsi_panel.xml
 
 # Fingerprint
-vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.lahaina.so
+vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.lahaina.so
 
 # Graphics firmware
 vendor/firmware/a660_gmu.bin
