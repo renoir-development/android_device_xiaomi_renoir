@@ -70,6 +70,7 @@ vendor/firmware/tfa98xx.cnt
 
 # Audio HAL
 vendor/lib/hw/audio.primary.lahaina.so
+vendor/lib/liba2dpoffload.so
 vendor/lib/libadm.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioparsers.so
