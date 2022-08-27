@@ -76,6 +76,7 @@ vendor/lib/libaudioparsers.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libqtigef.so
+vendor/lib/libresampler.so
 vendor/lib/libssrec.so
 
 # Camera
@@ -302,6 +303,7 @@ vendor/lib64/libFlickerDet.so
 vendor/lib64/libSNPE.so
 vendor/lib64/lib_sr_models.so
 vendor/lib64/libaidenoiser.so
+vendor/lib64/libaidenoiserv2.so
 vendor/lib64/libalAILDC.so
 vendor/lib64/libalCFR.so
 vendor/lib64/libalLDC.so
@@ -625,11 +627,12 @@ vendor/etc/sensors/config/sns_mag_cal.json
 vendor/etc/sensors/config/sns_mag_cal_legacy.json
 vendor/etc/sensors/config/sns_multishake.json
 vendor/etc/sensors/config/sns_nonui.json
+vendor/etc/sensors/config/sns_oem13.json
 vendor/etc/sensors/config/sns_pedometer.json
 vendor/etc/sensors/config/sns_rmd.json
 vendor/etc/sensors/config/sns_rotv.json
-vendor/etc/sensors/config/sns_sar_algo.json
 vendor/etc/sensors/config/sns_sar_algo_1.json
+vendor/etc/sensors/config/sns_sar_algo.json
 vendor/etc/sensors/config/sns_smd.json
 vendor/etc/sensors/config/sns_tilt.json
 vendor/etc/sensors/config/sns_tilt_sw_disabled.json
@@ -663,8 +666,8 @@ vendor/etc/thermal-india-normal.conf
 vendor/etc/thermal-india-tgame.conf
 vendor/etc/thermal-india-video.conf
 vendor/etc/thermal-india-youtube.conf
-vendor/etc/thermal-map-india.conf
 vendor/etc/thermal-map.conf
+vendor/etc/thermal-map-india.conf
 vendor/etc/thermal-mgame.conf
 vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-nolimits.conf
@@ -681,9 +684,9 @@ vendor/firmware/goodix_gt9897t_cfg_k9.bin
 vendor/firmware/goodix_gt9897t_fw_k9.bin
 
 # Vibrator effects
-vendor/firmware/seq_bin_wav1.bin
-vendor/firmware/seq_bin_wav2.bin|f9211d22648de1f32690592097f53fe1a4f36565
-vendor/firmware/seq_bin_wav3.bin
-vendor/firmware/seq_bin_wav4.bin
-vendor/firmware/seq_bin_wav5.bin
-vendor/firmware/seq_bin_wav6.bin
+vendor/firmware/0_click_P_RTP.bin
+vendor/firmware/1_doubelClick_P_RTP.bin
+vendor/firmware/2_tick_P_RTP.bin
+vendor/firmware/3_thud_P_RTP.bin
+vendor/firmware/4_pop_P_RTP.bin
+vendor/firmware/5_heavyClick_P_RTP.bin
