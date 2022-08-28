@@ -264,6 +264,8 @@ vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
 vendor/lib64/com.qti.feature2.derivedoffline.so
+vendor/lib64/com.qti.feature2.ellcprocess.so
+vendor/lib64/com.qti.feature2.ellcsupernight.so
 vendor/lib64/com.qti.feature2.frameselect.so
 vendor/lib64/com.qti.feature2.fusion.so
 vendor/lib64/com.qti.feature2.generic.so
@@ -417,6 +419,8 @@ vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so
+vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0.so
 
 # Charger (Mi Turbo Charge)
 vendor/bin/batterysecret
