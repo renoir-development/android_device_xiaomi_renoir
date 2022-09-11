@@ -13,7 +13,7 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := renoir
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/renoir-qgki_defconfig
+TARGET_KERNEL_CONFIG += vendor/renoir_QGKI.config
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
