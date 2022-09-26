@@ -495,12 +495,6 @@ vendor/firmware/a660_zap.b02
 vendor/firmware/a660_zap.elf
 vendor/firmware/a660_zap.mdt
 
-# HotwordEnrollment
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
-
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
