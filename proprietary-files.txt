@@ -78,6 +78,7 @@ vendor/lib/libhdmipassthru.so
 vendor/lib/libqtigef.so
 vendor/lib/libresampler.so
 vendor/lib/libssrec.so
+vendor/lib/libvideoNS.so
 
 # Camera
 vendor/etc/camera/CFR_para_MACRO_V01.bin
